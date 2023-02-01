@@ -1,6 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import { useTransition } from 'react';
+import { useTranslation } from 'react';
 import { MyContext } from './context/MyContext'
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
@@ -14,7 +13,7 @@ function App() {
 
   return (
     <div className="App">
-      
+      <HomePage></HomePage>
     </div>
   );
 }
